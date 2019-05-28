@@ -38,10 +38,10 @@ modules:
         done;
     sources:
       - type: file
-        url: https://github.com/optyfr/JRomManager/releases/download/2.1.1/jrommanager_2.1.1-1_all.deb
-        sha256: 11d0d4a83a30dc1cb07c73cb7810d47fba33391ccede449fc0f8c875e4a6a64c
+        url: https://github.com/optyfr/JRomManager/releases/download/2.1.1/JRomManager-2.1.1.zip
+        sha256: 8dfe990e0c7895eff7f93c8b72f2fcc485cde801e2ba086364512f8bb8e77462
       - type: archive
         url: https://github.com/optyfr/JRomManager/releases/download/2.1.1/JRomManager-2.1.1-src.tgz
-        sha256: eb149b0eeb262c6cd3a09726deaae5672bac1aebe88d834166e2a63ee40e499c
+        sha256: 399b0fb05f2b413808054d772d7f7617636008dc0e3796890f9e2cd2757a7e9c
       - type: file
         path: appdata.xml
