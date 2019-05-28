@@ -11,7 +11,14 @@
   <url type="bugtracker">https://github.com/optyfr/JRomManager/issues</url>
   <launchable type="desktop-id">com.github.optyfr.JRomManager.desktop</launchable>
   <releases>
-    <release version="2.1.0" date="2018-12-31">
+    <release version="2.1.1" date="2019-05-20">
+      <description>
+        <ul>
+          <li>Switched from CP437/UTF8 charset conversion to ASCII/UTF8 for torrentzip code</li>
+        </ul>
+      </description>
+    </release>
+    <release version="2.1.0" date="2019-05-15">
       <description>
         <ul>
           <li>RAR4 extraction</li>
