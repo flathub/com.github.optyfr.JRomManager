@@ -38,10 +38,10 @@ modules:
         done;
     sources:
       - type: file
-        url: https://github.com/optyfr/JRomManager/releases/download/2.1.1/JRomManager-2.1.1.zip
-        sha256: 8dfe990e0c7895eff7f93c8b72f2fcc485cde801e2ba086364512f8bb8e77462
+        url: https://github.com/optyfr/JRomManager/releases/download/2.2.0/JRomManager-2.2.0.zip
+        sha256: 320e3aba2e41d8d4f9081528cff3ce4a8667ab24ef9da6687be5d9e48c9b23e1
       - type: archive
-        url: https://github.com/optyfr/JRomManager/releases/download/2.1.1/JRomManager-2.1.1-src.tgz
-        sha256: 399b0fb05f2b413808054d772d7f7617636008dc0e3796890f9e2cd2757a7e9c
+        url: https://github.com/optyfr/JRomManager/releases/download/2.2.0/JRomManager-2.2.0-src.tgz
+        sha256: f4c1d94713ab4b2f1bb2b593e461c586326c34833bbf55ae1222266a0dd77e4e
       - type: file
         path: appdata.xml
