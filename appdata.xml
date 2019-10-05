@@ -11,6 +11,22 @@
   <url type="bugtracker">https://github.com/optyfr/JRomManager/issues</url>
   <launchable type="desktop-id">com.github.optyfr.JRomManager.desktop</launchable>
   <releases>
+    <release version="2.2.0" date="2019-09-29">
+      <description>
+        <ul>
+          <li>Using custom sevenzipjbinding which include more architectures/os, and a more recent sevenzip version</li>
+          <li>RAR5 extraction (as per sevenzipjbinding update)</li>
+          <li>CLI version
+            <ul>
+              <li>include access to all functionalities and more</li>
+              <li>support for environment variables (replacement) and java system properties (replacement, set, and clear)</li>
+            </ul>
+          </li>
+          <li>Modularized building which permit special packages for server and cli excluding all code from standalone interface (swing)</li>
+          <li>Most of the code were refactored and reorganized to get a total separation from core and standalone code</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.1.1" date="2019-05-20">
       <description>
         <ul>
