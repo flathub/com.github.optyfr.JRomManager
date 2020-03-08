@@ -11,6 +11,18 @@
   <url type="bugtracker">https://github.com/optyfr/JRomManager/issues</url>
   <launchable type="desktop-id">com.github.optyfr.JRomManager.desktop</launchable>
   <releases>
+    <release version="2.3.0" date="2020-03-07">
+      <description>
+        <ul>
+          <li>Added "Copy CRC/SHA1/Name" menu entries on entities in Report views and in ProfileViewer</li>
+          <li>Added "Detail" menu on entries in Report views</li>
+          <li>Added "Search on the Web" menu on entries in Report views and in ProfileViewer</li>
+          <li>Fixed Torrent Check report problem</li>
+          <li>Reuse back new latest SevenZipJBinding from official repository</li>
+          <li>Various fixes and sanitizations</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.2.0" date="2019-09-29">
       <description>
         <ul>

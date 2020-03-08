@@ -23,8 +23,7 @@ modules:
   - name: JRomManager
     buildsystem: simple
     build-commands:
-      - unzip -d ${FLATPAK_DEST}/bin JRomManager-2.2.0.zip
-      - ls
+      - unzip -d ${FLATPAK_DEST}/bin JRomManager.zip
       - install -Dm644 src-res-icons/jrm/resources/rom.svg ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg
       - install -Dm644 dist/JRomManager.desktop "${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop"
       - desktop-file-edit --set-key=Exec --set-value=JRomManager-multi.sh "${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop"
@@ -39,10 +38,11 @@ modules:
         done;
     sources:
       - type: file
-        url: https://github.com/optyfr/JRomManager/releases/download/2.2.0/JRomManager-2.2.0.zip
-        sha256: 320e3aba2e41d8d4f9081528cff3ce4a8667ab24ef9da6687be5d9e48c9b23e1
+        url: https://github.com/optyfr/JRomManager/releases/download/2.3.0/JRomManager-2.3.0.zip
+        sha256: cc7ddfcbc2fee3ef9a4839dfbabb902478833f74dee05438889efc21f9948177
+        dest-filename: JRomManager.zip
       - type: archive
-        url: https://github.com/optyfr/JRomManager/releases/download/2.2.0/JRomManager-2.2.0-src.tgz
-        sha256: f4c1d94713ab4b2f1bb2b593e461c586326c34833bbf55ae1222266a0dd77e4e
+        url: https://github.com/optyfr/JRomManager/releases/download/2.3.0/JRomManager-2.3.0-src.tgz
+        sha256: fdba3daa3759192b590b4b393bef36b15d6c2845a0e63e780542194cbb8509a1
       - type: file
         path: appdata.xml
