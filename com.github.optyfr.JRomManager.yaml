@@ -24,7 +24,7 @@ modules:
     buildsystem: simple
     build-commands:
       - unzip -d ${FLATPAK_DEST}/bin JRomManager.zip
-      - install -Dm644 src-res-icons/jrm/resources/rom.svg ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg
+      - install -Dm644 src-res-icons/jrm/resicons/rom.svg ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg
       - install -Dm644 dist/JRomManager.desktop "${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop"
       - desktop-file-edit --set-key=Exec --set-value=JRomManager-multi.sh "${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop"
       - desktop-file-edit --set-key=Icon --set-value=${FLATPAK_ID} "${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop"
