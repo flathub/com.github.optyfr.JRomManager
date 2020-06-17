@@ -39,11 +39,11 @@ modules:
         done;
     sources:
       - type: file
-        url: https://github.com/optyfr/JRomManager/releases/download/2.3.0/JRomManager-2.3.0.zip
-        sha256: cc7ddfcbc2fee3ef9a4839dfbabb902478833f74dee05438889efc21f9948177
+        url: https://github.com/optyfr/JRomManager/releases/download/2.4.0/JRomManager-2.4.0.zip
+        sha256: b1c8a1194a5c6834ea574e899f9bd3f10de485fccfd0df6d41604fc33a2127a4
         dest-filename: JRomManager.zip
       - type: archive
-        url: https://github.com/optyfr/JRomManager/releases/download/2.3.0/JRomManager-2.3.0-src.tgz
-        sha256: fdba3daa3759192b590b4b393bef36b15d6c2845a0e63e780542194cbb8509a1
+        url: https://github.com/optyfr/JRomManager/releases/download/2.4.0/JRomManager-2.4.0-src.tgz
+        sha256: 6947be5e316cc65cfe658c08348270f92fe735983cb7ebde841c486c52bb42f4
       - type: file
         path: appdata.xml

@@ -11,6 +11,28 @@
   <url type="bugtracker">https://github.com/optyfr/JRomManager/issues</url>
   <launchable type="desktop-id">com.github.optyfr.JRomManager.desktop</launchable>
   <releases>
+    <release version="2.4.0" date="2020-06-07">
+      <description>
+        <ul>
+          <li>
+            Added full server mode
+            <ul>
+              <li>Made for an usage over the Internet (but it should be kept legal between users)</li>
+              <li>Jetty is used instead of NanoHTTPd</li>
+              <li>Multi-user with access rights, a per user WorkDir, a shared read-only space, and no access to the rest of the entire FileSystem</li>
+              <li>Totally secured (separate accounts with login/password, HTTPS with TLS 1.3, server certificate handling and auto reload, obfuscated paths, ...)</li>
+              <li>HTTP2 support (only with TLS 1.2) which permit long polling request usage in place of WebSockets without loosing too much network performance</li>
+              <li>This mode is still experimental, work still need to be made on disk/thread quotas, and a firewall with IP filtering may be required to get full control on who is attempting to connect</li>
+            </ul>
+          </li>
+          <li>Implemented Long polling Request as alternative of WebSockets for simple server mode</li>
+          <li>New "Single File" mode, made for single ROM per game sets than can be kept in base directory without creating a sub-directory for each game...</li>
+          <li>Added support for import/export of settings from one profile to another</li>
+          <li>More graphical icons for tabs and buttons</li>
+          <li>Various fixes</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.3.0" date="2020-03-07">
       <description>
         <ul>
