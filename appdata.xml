@@ -11,6 +11,13 @@
   <url type="bugtracker">https://github.com/optyfr/JRomManager/issues</url>
   <launchable type="desktop-id">com.github.optyfr.JRomManager.desktop</launchable>
   <releases>
+    <release version="2.4.4" date="2020-08-05">
+      <description>
+        <p>
+        Dummy release because 2.4.3 packages were build with wrong jdk...
+        </p>
+      </description>
+    </release>
     <release version="2.4.0" date="2020-06-07">
       <description>
         <ul>

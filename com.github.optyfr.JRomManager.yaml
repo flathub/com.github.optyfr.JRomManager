@@ -1,6 +1,6 @@
 app-id: com.github.optyfr.JRomManager
 runtime: org.freedesktop.Platform
-runtime-version: '19.08'
+runtime-version: '20.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.openjdk11
@@ -39,11 +39,11 @@ modules:
         done;
     sources:
       - type: file
-        url: https://github.com/optyfr/JRomManager/releases/download/2.4.0/JRomManager-2.4.0.zip
-        sha256: b1c8a1194a5c6834ea574e899f9bd3f10de485fccfd0df6d41604fc33a2127a4
+        url: https://github.com/optyfr/JRomManager/releases/download/2.4.4/JRomManager-2.4.4.zip
+        sha256: cff7d8818ae423abcab0725eb0a25658f458babd85a384ae76c12a673384b862
         dest-filename: JRomManager.zip
       - type: archive
-        url: https://github.com/optyfr/JRomManager/releases/download/2.4.0/JRomManager-2.4.0-src.tgz
-        sha256: 6947be5e316cc65cfe658c08348270f92fe735983cb7ebde841c486c52bb42f4
+        url: https://github.com/optyfr/JRomManager/releases/download/2.4.4/JRomManager-2.4.4-src.tgz
+        sha256: e4926b7bb830e0800110d0973c0176cecbc45e59c3004bca0e94357e5e081585
       - type: file
         path: appdata.xml
