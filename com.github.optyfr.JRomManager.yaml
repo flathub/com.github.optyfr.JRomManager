@@ -42,8 +42,20 @@ modules:
         url: https://github.com/optyfr/JRomManager/releases/download/2.4.4/JRomManager-2.4.4.zip
         sha256: cff7d8818ae423abcab0725eb0a25658f458babd85a384ae76c12a673384b862
         dest-filename: JRomManager.zip
+        x-checker-data:
+          type: json
+          url: https://api.github.com/repos/optyfr/JRomManager/releases/latest
+          timestamp-query: .published_at
+          url-query: .assets[] | select(.name=="JRomManager-" + $version + ".zip") | .browser_download_url
+          version-query: .tag_name
       - type: archive
         url: https://github.com/optyfr/JRomManager/releases/download/2.4.4/JRomManager-2.4.4-src.tgz
         sha256: e4926b7bb830e0800110d0973c0176cecbc45e59c3004bca0e94357e5e081585
+        x-checker-data:
+          type: json
+          url: https://api.github.com/repos/optyfr/JRomManager/releases/latest
+          timestamp-query: .published_at
+          url-query: .assets[] | select(.name=="JRomManager-" + $version + "-src.tgz") | .browser_download_url
+          version-query: .tag_name
       - type: file
         path: appdata.xml
