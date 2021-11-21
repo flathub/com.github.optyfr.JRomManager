@@ -37,8 +37,8 @@ modules:
         "${icon_out}" -t "${FLATPAK_DEST}/share/icons/hicolor/${s}x${s}/apps/"; done;
     sources:
       - type: file
-        url: https://github.com/optyfr/JRomManager/releases/download/2.5.0/JRomManager-2.5.0.zip
-        sha256: af14b92d34cdd61e23efeeb26923763407d76f5042ffc7c3fa06ff7d724266a4
+        url: https://github.com/optyfr/JRomManager/releases/download/2.5.1/JRomManager-2.5.1.zip
+        sha256: 9e35bafef038af2ed0ca5d2223b7a1239e038f541948d7028917f38cfd076a0d
         dest-filename: JRomManager.zip
         x-checker-data:
           type: json
@@ -48,8 +48,8 @@ modules:
             | .browser_download_url
           version-query: .tag_name
       - type: archive
-        url: https://github.com/optyfr/JRomManager/releases/download/2.5.0/JRomManager-2.5.0-src.tgz
-        sha256: c7f0f8f991bdf04740c6108c6e6234974adffd0c3b8ee474d4044c8dbd6e2193
+        url: https://github.com/optyfr/JRomManager/releases/download/2.5.1/JRomManager-2.5.1-src.tgz
+        sha256: aafaea3898344f13c62b735570752708439078bc80b38d8a5be1e616e80c367f
         x-checker-data:
           type: json
           url: https://api.github.com/repos/optyfr/JRomManager/releases/latest
