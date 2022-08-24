@@ -95,16 +95,16 @@
   <developer_name>optyfr</developer_name>
   <screenshots>
     <screenshot type="default">
-      <image type="source">https://raw.githubusercontent.com/optyfr/JRomManager/master/JRomManager/doc/Profiles.png</image>
+      <image type="source">https://raw.githubusercontent.com/optyfr/JRomManager/master/doc/Profiles.png</image>
     </screenshot>
     <screenshot>
-      <image type="source">https://raw.githubusercontent.com/optyfr/JRomManager/master/JRomManager/doc/Scanner_Folders.png</image>
+      <image type="source">https://raw.githubusercontent.com/optyfr/JRomManager/master/doc/Scanner_Folders.png</image>
     </screenshot>
     <screenshot>
-      <image type="source">https://raw.githubusercontent.com/optyfr/JRomManager/master/JRomManager/doc/Dir2Dat.png</image>
+      <image type="source">https://raw.githubusercontent.com/optyfr/JRomManager/master/doc/Dir2Dat.png</image>
     </screenshot>
     <screenshot>
-      <image type="source">https://raw.githubusercontent.com/optyfr/JRomManager/master/JRomManager/doc/Scanner_Settings.png</image>
+      <image type="source">https://raw.githubusercontent.com/optyfr/JRomManager/master/doc/Scanner_Settings.png</image>
     </screenshot>
   </screenshots>
   <update_contact>sakcheen+flathub_AT_gmail.com</update_contact>
